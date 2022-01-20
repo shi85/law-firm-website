@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  width: 100vw;
+}
+
+
+/* Navbar Styling */
+
+/* Navbar Styling */
+
+header {
+  margin-bottom: 0.5;
+} 
+
+.ms-1 {
+  margin-left: 0!important;
+}
+
+
+ .navbar-brand {
+  font-size: 45px !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  line-height: 15px !important;
+  padding-top: 1%  !important;
+  padding-left: 37%;
+  
+ }
+  
+  
+
+
+
+.brand-2 {
+  
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 25px !important;
+  padding-top: 6% !important;
+  text-align: center !important;
+  
+}
+
+
+
+.nav {
+  font-size: 20px !important;
+  color: #fff !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  font-weight: 700 !important;
+  
+}
+
+.nav :hover {
+  background-color: #000;
+  color: #fff;
+  
+}
+
+  /* Services content styling */
+
+/* Legal Consultany div .. Styling */
+.content-container .point-p {
+  /* position: fixed; */
+  color: #fff;
+  text-align: center;
+  font: bold; 
+  font-size: 18px;
+  bottom: 30%;
+  right: 0;
+  /* padding: 1%; */
+  /* margin-bottom: 20%; */
+  background-color:#33383b;
+  opacity: 1;
+  width: 100%;
+
+}
+/* ........................... */
+
+
+/* using about-us heading styling */
+  .about-us-heading {
+    background-image: linear-gradient(to right, #00458B, #c9def2);
+    padding: 1.5% 12% 0 12%;
+    margin: 4% 0;
+    text-align: center;
+    
+  } 
+
+.list-group {
+  padding-left: 5% !important;
+  margin-bottom: 4% !important;
+  font-size: 25px;
+  font-weight: 900 !important;
+  
+
+}
+
+.list-group :hover {
+  color: #00458b;
+  font-weight: 900;
+}
+
+.list-group img {
+  padding-right: 15px;
+}
+
+
+
+
+/* Footer */
+
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2% 0 2% 0;
+  
+  color: #fff;
+  background-color: #000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer > * {
+flex:  1 100%;
+}
+
+.l-footer {
+margin-right: 1.25em;
+margin-bottom: 2em;
+}
+
+h2 {
+font-weight: 400;
+font-size: 25px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+line-height: 2em;
+}
+
+.footer a {
+text-decoration: none;
+}
+
+.r-footer {
+display: flex;
+flex-flow: row wrap;
+}
+
+
+.r-footer li > h4 {
+font-size: 20px;
+}
+
+
+.r-footer > * {
+flex: 1 50%;
+margin-right: 1.25em;
+}
+
+.box a {
+color: #999;
+font-size: 12px;
+}
+
+.h-box {
+column-count: 2;
+column-gap: 1.25em;
+}
+
+.b-footer {
+text-align: center;
+color: #999;
+padding-top: 50px;
+}
+
+.l-footer p {
+/* padding-right: 20%; */
+color: #999;
+}   
+
+
+@media screen and (min-width: 600px) {
+  .r-footer > * {
+  flex: 1;
+  }
+  
+  .features {
+  flex-grow: 2;
+  }
+  
+  .l-footer {
+  flex: 1 0px;
+  }
+  
+  .r-footer {
+  flex: 2 0px;
+  }
+
+  }
+
+
+  @media screen and (max-width: 767px) {
+
+    .about-us-heading {
+     font-size: 30px;
+      
+    } 
+
+    /* legal con styling.............................................. */
+.content-container > .point-p {
+  font-size: 10px;
+  
+}
+ /*..........................................................  */
+  };
+    
+  
+  
+
+
+
+
+  

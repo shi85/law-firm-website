@@ -1,0 +1,115 @@
+/* Article & publication body  Styling */
+
+/* Legal Consultany div .. Styling */
+.content-container .point-p {
+  color: #fff;
+  text-align: center;
+  font: bold; 
+  font-size: 25px;
+  bottom: 30%;
+  right: 0;
+  background-color:#33383b;
+  opacity: 1;
+  width: 100%;
+
+}
+/* ........................... */
+
+
+/* using about-us heading styling */
+.about-us-heading {
+    background-image: linear-gradient(to right, #00458B, #c9def2);
+    padding: 1.5% 12% 0 12%;
+    margin: 4% 0;
+    text-align: center;
+}
+
+.section-container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-container .columns {
+    flex:0 0 auto;
+    width:100%;
+}
+
+
+
+.section-container .columns.content .content-container {
+    padding:40px 50px;
+}
+
+.section-container .columns.content .content-container h5 {
+    font-weight:700;
+    font-size:25px;
+    color: #00458B;
+    margin-bottom:20px;
+}
+
+
+.section-container .columns.content .content-container p {
+    font-weight:400;
+    font-size:20px;
+    margin-bottom:20px;
+    margin-bottom:15px;
+    text-align:justify;
+}
+
+
+@media screen and (max-width:767px) {
+
+.about-us-heading {
+font-size: 30px;
+} 
+
+.section-container {
+    flex-flow:row wrap;
+}
+
+
+
+
+.section-container .columns.content {
+    display:block;
+    order:2;
+    width:100%;
+}
+
+
+.section-container .columns.content .content-container {
+    padding:20px 35px;
+}
+
+
+.section-container .columns.content .content-container h5 {
+    margin-bottom:5px;
+}
+
+
+/* legal con styling.............................................. */
+ .content-container > .point-p {
+  
+  font-size: 10px;
+  
+}
+ /*..........................................................  */
+
+}
+
+
+
+
+
+
+
+
+  
+
+
